@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "BitDevs Amsterdam, May 11th 2023"
+title: "BitDevs Amsterdam, July 6th 2023"
 meetup: https://www.meetup.com/bitdevs-amsterdam/events/291954851/
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
 
 It's time for another BitDevs! A big thanks to [Bitonic](https://bitonic.nl/) for sponsoring us with the meeting space and snacks! Drinks and light snacks will be provided, so please ensure you have some dinner beforehand or bring it along to the seminar.
 
-### Thursday, June 6th 2023 @ 7PM
+### Thursday, July 6th 2023 @ 7PM
 
 Doors open at 6:30PM and we will try to start promptly at 7PM. As a reminder, the ground rules of BitDevs are as follows:
 
