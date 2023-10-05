@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "BitDevs Amsterdam Conference Edition, October 11th 2023"
-meetup: https://www.meetup.com/bitdevs-amsterdam/
+meetup: https://www.meetup.com/bitdevs-amsterdam/events/296553358
 published: true
 ---
 
