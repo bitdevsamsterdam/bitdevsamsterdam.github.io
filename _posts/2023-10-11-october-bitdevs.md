@@ -18,18 +18,18 @@ We will be meeting at the [MACA Amsterdam](https://www.maca.amsterdam/) in Amste
 * Google maps link: [https://maps.app.goo.gl/gZwCxM1EWxoAouU9A](https://maps.app.goo.gl/gZwCxM1EWxoAouU9A)
 
 <br />
-Doors open at 2:00PM and we will try to start promptly at 3PM. Light snacks will be provided and then we will join our friends for [De Bitcoin Meetup at Blast Galaxy](https://www.meetup.com/de-bitcoin-meetup/events/294584411/) for food and drinks (~10 min walk away, starting at 5PM).
+Doors open at 2:00PM and we will try to start promptly at 3PM. Light snacks will be provided. We will join our friends for [De Bitcoin Meetup at Blast Galaxy](https://www.meetup.com/de-bitcoin-meetup/events/294584411/) for food and drinks (~10 min walk away, starting at 5PM).
 
-Please RSVP (either through our meetup page or to *bitdevsamsteram at protonmail dot com*) as we are expecting a larger crowd than usual and space at our venue is limited to 100 people. We hope to see you at both for good discussion, good food, and good drinks with great people! Let's kick off the conference with a bang!
+Please RSVP (either through our meetup page or to *bitdevsamsterdam at protonmail dot com*) as we are expecting a larger crowd than usual and space at our venue is limited to 100 people. We hope to see you at both the BitDevs and the Blast Galaxy Bitcoin Meetup for good discussion, good food, and good drinks with great people! Let's kick off the conference with a bang!
 
 As a reminder, the BitDevs rules are:
 
 1. No photos, videos, or recordings.
-1. [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): you may
+2. [Chatham House Rule](https://en.wikipedia.org/wiki/Chatham_House_Rule): you may
    reiterate the contents of the meeting *without* attribution.
 
 <br />
-These rules exist so that BitDevs participants can speak freely within the event.
+These rules exist so that BitDevs participants can speak freely during the event.
 
 # Agenda
 
