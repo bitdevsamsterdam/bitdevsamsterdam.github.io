@@ -62,8 +62,3 @@ These rules exist so that BitDevs participants can speak freely during the event
 * [OP\_VAULT demo](https://github.com/jamesob/opvault-demo/)
 * [BIP for OP\_TXHASH and OP\_CHECKTXHASHVERIFY](https://github.com/bitcoin/bips/pull/1500)
 * [BIP for Template Key](https://github.com/reardencode/bips/blob/bip-template-key/bip-template-key.mediawiki)
-
-
-
-
-
