@@ -33,5 +33,32 @@ These rules exist so that BitDevs participants can speak freely during the event
 
 # Agenda
 
-To be announced a few days before the event.
+## Presentation: The lightning network
 
+[Sam Wouters](https://twitter.com/SDWouters) will be kicking things off with a presentation of his report on the lightning network, followed by QnA.
+
+## CoreDev Recap
+
+* [Transcripts](https://btctranscripts.com/bitcoin-core-dev-tech/2023-09/)
+* Topics of interest:
+  * P2P discussions
+  * `libbitcoinkernel` progress
+  * Legacy wallet removal timeline
+
+## Upcoming v26 release
+
+* [AssumeUTXO](https://github.com/bitcoin/bitcoin/pull/27596)
+* [P2P v2 (BIP324)](https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki)
+* [MiniTapscript](https://github.com/bitcoin/bitcoin/pull/27255)
+* Release candidate comming soon!
+
+## BIPs and Proposals
+
+* New discussion forum: [https://delvingbitcoin.org](https://delvingbitcoin.org/)
+* [Concrete OP\_CODES for MATT](https://github.com/bigspider/pymatt)
+  * [MATT demo](https://github.com/bigspider/pymatt)
+* [BitVM](https://bitvm.org/bitvm.pdf)
+  * [Supertestnet writeup](https://github.com/supertestnet/tapleaf-circuits/blob/main/README.md)
+* [OP\_VAULT demo](https://github.com/jamesob/opvault-demo/)
+* [BIP for OP\_TXHASH and OP\_CHECKTXHASHVERIFY](https://github.com/bitcoin/bips/pull/1500)
+* [BIP for Template Key](https://github.com/reardencode/bips/blob/bip-template-key/bip-template-key.mediawiki)
