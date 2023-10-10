@@ -54,8 +54,12 @@ These rules exist so that BitDevs participants can speak freely during the event
 
 ## BIPs and Proposals
 
-* [MATT (demo)](https://github.com/bigspider/pymatt)
+* New discussion forum: [https://delvingbitcoin.org](https://delvingbitcoin.org/)
+* [Concrete OP\_CODES for MATT](https://github.com/bigspider/pymatt)
+  * [MATT demo](https://github.com/bigspider/pymatt)
 * [BitVM](https://bitvm.org/bitvm.pdf)
+  * [Supertestnet writeup](https://github.com/supertestnet/tapleaf-circuits/blob/main/README.md)
+* [OP\_VAULT demo](https://github.com/jamesob/opvault-demo/)
 * [BIP for OP\_TXHASH and OP\_CHECKTXHASHVERIFY](https://github.com/bitcoin/bips/pull/1500)
 * [BIP for Template Key](https://github.com/reardencode/bips/blob/bip-template-key/bip-template-key.mediawiki)
 
