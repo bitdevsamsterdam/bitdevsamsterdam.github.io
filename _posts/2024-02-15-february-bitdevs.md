@@ -20,6 +20,25 @@ Doors open at 6:30PM and we will try to start promptly at 7PM. As a reminder, th
 
 These rules exist so that BitDevs participants can speak freely within the event.
 
-# Agenda
+## Reflections
 
-The agenda will be finalized the week before the event. You can follow along with the work in progress agenda on our [github repository](https://github.com/bitdevsamsterdam/bitdevsamsterdam.github.io/issues/17). Feel free to suggest topics you'd like to discuss on the github issue!
+* [Latest thoughts on Bitcoin: the Good, the Bad, and the Ugly](https://medium.com/@elombrozo/latest-thoughts-on-bitcoin-the-good-the-bad-and-the-ugly-598d5346d0d7)
+* [Rethinking Lightning](https://stacker.news/items/379225)
+* [Transaction Stacking for Covenant Fee Minimization](https://rusty.ozlabs.org/2024/01/08/txhash-tx-stacking.html)
+
+## Proposals / PRs
+
+* [#28948: v3 transaction policy for anti-pinning](https://github.com/bitcoin/bitcoin/pull/28948)
+* v3 critique and response
+  * [Critique](https://petertodd.org/2023/v3-transactions-review)
+  * [Response](https://github.com/bitcoin/bitcoin/pull/28948#issuecomment-1873490509)
+* [Cluster mempool proposal](https://delvingbitcoin.org/t/an-overview-of-the-cluster-mempool-proposal/393)
+
+## Misc
+
+* [New year, new mailing list!](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2024-February/022327.html)
+* [Disclosure: btcd consensus bug due to signed transaction versions](https://delvingbitcoin.org/t/disclosure-btcd-consensus-bugs-due-to-usage-of-signed-transaction-version/455)
+
+
+<br/><br/>
+<small><i>We aim to finalize the agenda the week before the event. You can follow along with the work in progress agenda on our [github repository](https://github.com/bitdevsamsterdam/bitdevsamsterdam.github.io/issues/). Feel free to suggest topics you'd like to discuss on the github issue!</i></small>
