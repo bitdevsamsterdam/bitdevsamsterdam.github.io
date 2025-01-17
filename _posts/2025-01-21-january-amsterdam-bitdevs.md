@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "BitDevs Amsterdam, January 21st, 2025"
-meetup: https://www.meetup.com/bitdevs-amsterdam/events/302014002/
+meetup: https://www.meetup.com/bitdevs-amsterdam/events/305519786/ 
 published: true
 ---
 
@@ -22,4 +22,19 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 # Agenda
 
-TBA
+## News
+
+* [Disclosure of hindered block propagation due to stalling peers for < 25.1](https://bitcoincore.org/en/2024/11/05/cb-stall-hindering-propagation/)
+* [Disclosure of CVE-2024-35202 for < 25.0](https://bitcoincore.org/en/2024/10/08/disclose-blocktxn-crash/)
+* [Centralised coinjoin deanonymization attacks](https://groups.google.com/g/bitcoindev/c/CbfbEGozG7c)
+* [Technical Evaluation of Selected Bitcoin Consensus Changes](https://gist.github.com/jonasnick/e9627f56d04732ca83e94d448d4b5a51)
+
+## Proposals
+
+* [Radpool - a p2pool revival?](https://www.radpool.xyz/1/index.html)
+
+
+## Noteworthy PRs / Issues
+
+* [StratumV2 Mining interface over IPC](https://github.com/bitcoin/bitcoin/issues/31098)
+* [#30592: Remove `mempoolfullrbf`](https://github.com/bitcoin/bitcoin/pull/30592)
