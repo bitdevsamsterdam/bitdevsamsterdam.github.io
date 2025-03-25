@@ -22,4 +22,21 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 # Agenda
 
-TBA
+### Proposals
+
+* A wild BIP for [MATT](https://merkle.fun/) appears
+  * [BIP-OP\_CONTRACTVERIFY](https://github.com/bitcoin/bips/blob/aa291c23fbd3a46f85b94b0fb86ed475f0daf746/bip-ccv.mediawiki)
+  * [Amount semantics with OP\_CONTRACTVERIFY](https://delvingbitcoin.org/t/op-checkcontractverify-and-its-amount-semantic/1527)
+
+### Research
+
+* [HRF CISA fellowship report](https://hrf.org/latest/cisa-research-paper/#flipbook-df_9290/1/)
+
+### Noteworthy PRs
+
+* [#31829: Improve TxOrphanage DoS](https://github.com/bitcoin/bitcoin/pull/31829)
+
+### Presentations
+
+* [Improving IBD with SwiftSync](https://gist.github.com/RubenSomsen/82ccd0f913057e05353b437457f68a11) by Ruben Somsen
+
