@@ -22,4 +22,22 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 # Agenda
 
-TBD
+## Bitcoin Core 29.0
+
+- [bitcoin-dev ML post](https://groups.google.com/g/bitcoindev/c/nfiWEOBGyzk)
+
+## Proposals
+
+- [DahLIAS: Discrete Log Based Interactive Aggregate Signatures (full aggregation](https://eprint.iacr.org/2025/692.pdf)
+  - [bitcoin-dev ML post](https://groups.google.com/g/bitcoindev/c/eothFkxAvK0)
+- [Relax OP_RETURN standardness restrictions](https://groups.google.com/g/bitcoindev/c/d6ZO7gXGYbQ)
+- [The Ark case for CTV](https://delvingbitcoin.org/t/the-ark-case-for-ctv/1528)
+
+## Projects
+
+- [secp256k1lab: a Python library for prototyping](https://groups.google.com/g/bitcoindev/c/f3MQRO-yxEw/m/EhWiBSl3BgAJ)
+
+## OPNEXT
+
+- [The Mempool Anarchist's Cookbook](https://www.youtube.com/watch?v=m2V0fghHiCA)
+- [other OPNEXT talks (videos)]( https://www.youtube.com/@blockspacemedia/videos)
