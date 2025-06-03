@@ -22,4 +22,18 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 # Agenda
 
-TBA
+## Research
+
+* [Bitcoin and Quantum Computing: Status and future directions](https://chaincode.com/bitcoin-post-quantum.pdf)
+* [The Tragic Tale of BIP30](https://groups.google.com/g/bitcoindev/c/aqHRfa0UWFo/m/ED-dRJYsAQAJ)
+
+## Proposals
+
+* [Witnessless sync for pruned nodes](https://delvingbitcoin.org/t/witnessless-sync-for-pruned-nodes/1742)
+  * [Original gist (with comments)](https://gist.github.com/JoseSK999/df0a2a014c7d9b626df1e2b19ccc7fb1)
+  * [#27050: Don't download witnesses for assume-valid blocks while pruned](https://github.com/bitcoin/bitcoin/pull/27050)
+
+## Bitcoin Core
+
+* [CVE-2024-52919 - Remote crash due to addr message spam (part 2)](https://bitcoincore.org/en/2025/04/28/disclose-cve-2024-52919/)
+* [Bitcoin Core slow after upgrade (28.0 => 29.0)](https://github.com/bitcoin/bitcoin/issues/32455)
