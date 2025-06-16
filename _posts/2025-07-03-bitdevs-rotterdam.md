@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "BitDevs Rotterdam, July 3, 2025"
-meetup: 
+meetup: https://www.meetup.com/bitdevs-amsterdam/events/308527728
 published: true
 ---
 
