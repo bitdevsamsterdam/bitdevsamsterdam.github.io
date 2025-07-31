@@ -22,4 +22,22 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 # Agenda
 
-TBD
+## PRs / Releases
+
+* ["Bitcoin Core v29.1rc1"](https://github.com/bitcoin/bitcoin/blob/v29.1rc1/doc/release-notes.md)
+
+## Research
+
+* ["Taproot is post-quantum secure when restricted to script-path spends"](https://groups.google.com/g/bitcoindev/c/ydE5u5C0xVc)
+
+## Proposals
+
+* ["Utreexo BIPs"](https://groups.google.com/g/bitcoindev/c/W1lxBraKG_E)
+* ["A Taproot-native (re-)bindable transaction bundle proposal"](https://groups.google.com/g/bitcoindev/c/5wLThgegha4)
+
+## Misc
+
+* ["Disclosure: LND `gossip_timestamp_filter` DoS"](https://delvingbitcoin.org/t/disclosure-lnd-gossip-timestamp-filter-dos/1859)
+* ["#32521 - policy: make pathological transactions non-standard"](https://github.com/bitcoin/bitcoin/pull/32521)
+
+
