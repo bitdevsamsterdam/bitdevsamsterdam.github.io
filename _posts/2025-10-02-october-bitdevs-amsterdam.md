@@ -24,10 +24,25 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 ## PRs / Releases
 
+* [Bitcoin Core v30rc2 release candidate available](https://groups.google.com/g/bitcoindev/c/BvNQ3YdI4_k)
+  * [Bitcoin Core v30 Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/30.0-Release-Candidate-Testing-Guide)
+  * [Release notes draft](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/v30.0-Release-Notes-Draft)
+
+* [peer-observer: Monitoring the Bitcoin p2p network](https://delvingbitcoin.org/t/peer-observer-a-tool-and-infrastructure-for-monitoring-the-bitcoin-p2p-network-for-attacks-and-anomalies/1988)
+* [rust-bitcoin: add SHA3-256](https://github.com/rust-bitcoin/rust-bitcoin/pull/4919)
+* [libsecp: refactor tagged hash verification](https://github.com/bitcoin-core/secp256k1/pull/1725)
+* Rust multiprocess support for interacting with Bitcoin Core
+  * [Capnp Schemas](https://github.com/rustaceanrob/bitcoin-core-capnp-schemas)
+  * [Auto generated types](https://github.com/rustaceanrob/bitcoin-capnp-types)
+  * [RFC: How to version and release Capnp schemas](https://github.com/bitcoin-core/libmultiprocess/issues/217)
+
 ## Research
+
+* [Five Years of Bitcoin Design](https://five.bitcoin.design/)
+* [Bitcoin Core Code - a review](https://binaryigor.com/bitcoin-core-code.html)
+* [Not in The Prophecies: Practical Attacks on Nostr](https://eprint.iacr.org/2025/1459.pdf)
 
 ## Proposals
 
-## Misc
-
-
+* [RFC: Bitcoin Core BlockTemplateManager](https://github.com/bitcoin/bitcoin/issues/33389)
+  * [#33421: Add BlockTemplate cache](https://github.com/bitcoin/bitcoin/pull/33421)
