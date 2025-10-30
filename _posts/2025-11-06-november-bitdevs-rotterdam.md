@@ -36,6 +36,7 @@ This month's agenda is inspired by the lightning++ conference in Berlin that too
 - **Lightning's "toxic" waste problem**: In the long term of running a lightning node you have to consider  your own storage as an attack vector on privacy -- you keep track of everything you ever sent/received or forwarded
    - [lightning++ Talk description](https://btcplusplus.dev/conf/berlin25/talks#b25_waste)
    - [Related LND issue](https://github.com/lightningnetwork/lnd/issues/9963)
+   - [Pull Request doc explaining this in-depth](https://github.com/lightningnetwork/lnd/blob/017299fe6f3aec3d8c7ece84c383a47da59862f0/docs/forwarding_history_privacy.md)
 - **State of Lightning Privacy**: One of the strongest aspects of lightning is the privacy model. How well does it hold and how hard is it for an attacker to gain any information related to identifying the actors within the system.
    - [arxiv: Research Paper](https://arxiv.org/abs/2006.12143)
    - [Stackernews post with older video](https://stacker.news/items/1012159)
