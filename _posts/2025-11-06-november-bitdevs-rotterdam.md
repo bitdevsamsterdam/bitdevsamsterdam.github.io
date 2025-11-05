@@ -22,7 +22,7 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 # Agenda
 
-This month's agenda is inspired by the lightning++ conference in Berlin that took place earlier in October. Unfortunately individial videos corresponding to specific talks have not yet been uploaded, and also any recordings of the secondary stage are not uploaded. That means that reading material remains in text form.
+This month's agenda is inspired by the lightning++ conference in Berlin that took place earlier in October. Unfortunately individual videos corresponding to specific talks have not yet been uploaded, and also any recordings of the secondary stage are not uploaded. That means that reading material remains in text form.
 
 - **RGB on lightning**: bringing RGB assets on the LN level by pulling the assets in the channel via the op_return field
    - [lightning++ Talk description](https://btcplusplus.dev/conf/berlin25/talks#b25_rgb)
