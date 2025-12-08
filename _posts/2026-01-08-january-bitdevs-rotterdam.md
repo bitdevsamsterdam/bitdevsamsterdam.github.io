@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "BitDevs Rotterdam, January 8, 2025"
+title: "BitDevs Rotterdam, January 8, 2026"
 meetup: https://www.meetup.com/bitdevs-amsterdam/events/312353750
 published: true
 ---
