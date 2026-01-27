@@ -31,5 +31,8 @@ These rules exist so that BitDevs participants can speak freely within the event
     - [Bitcoin-Dev list](https://groups.google.com/g/bitcoindev/c/L4Eu9bA5iBw/m/jo9RzS-HAQAJ)
     - [delvingbitcoin.org](https://delvingbitcoin.org/t/modifying-bip54-to-support-future-ntime-soft-fork/2163)
 
-#### Part II: TBD
+#### Part II: Bitcoin Open Source vs LLM coding
+
+Open discussion around bitcoin open source development and the challenges that
+wide adoption of LLM/agentic coding presents. Main discussion will be around development flow, reviews, repository policies and security.
 
