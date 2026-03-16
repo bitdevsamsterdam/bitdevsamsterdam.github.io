@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "BitDevs Rotterdam, June 4, 2026"
-meetup: https://www.meetup.com/bitdevs-amsterdam/events/TODO
+meetup: https://www.meetup.com/bitdevs-amsterdam/events/313791579
 published: true
 ---
 
