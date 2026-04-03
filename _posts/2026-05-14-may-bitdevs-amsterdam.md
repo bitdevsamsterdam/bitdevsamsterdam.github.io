@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "BitDevs Amsterdam, May 7th, 2026"
+title: "BitDevs Amsterdam, May 14th, 2026"
 meetup: https://www.meetup.com/bitdevs-amsterdam/events/313791527
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
 
 It's time for another BitDevs! A big thanks to [Bitonic](https://www.bitonic.nl) for sponsoring us with the meeting space. Drinks will be provided, so please ensure you have some dinner beforehand or bring it along to the seminar.
 
-### Thursday, May 7th, 2026 @ 7PM
+### Thursday, May 14th, 2026 @ 7PM
 
 Doors open at 6:30PM and we will try to start promptly at 7PM. As a reminder, the ground rules of BitDevs are as follows:
 
