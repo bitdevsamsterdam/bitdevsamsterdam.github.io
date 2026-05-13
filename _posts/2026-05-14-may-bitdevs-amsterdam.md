@@ -33,6 +33,9 @@ These rules exist so that BitDevs participants can speak freely within the event
 - **Slow block propagation and validation on signet**: Measurements showing that slowly-validating blocks on Bitcoin's Signet testnet propagate approximately 160 times slower than normal blocks. Median validation took around 20 seconds compared to 176 milliseconds for standard blocks, highlighting real-world impact of BIP 54's targeted issues.
   - [https://b10c.me/observations/16-slow-block-propagation-validation-signet/](https://b10c.me/observations/16-slow-block-propagation-validation-signet/)
 
+- **ViaBTC joins the BIP 54 compatibility train**: Mainnet observer data showing ViaBTC mining BIP 54-compatible coinbase transactions, adding another major pool to the set of miners signaling practical compatibility with Consensus Cleanup constraints.
+  - [https://mainnet.observer/charts/mining-pools-mining-bip54-coinbase/](https://mainnet.observer/charts/mining-pools-mining-bip54-coinbase/)
+
 #### Mining and consensus research
 
 - **Inertial Mining**: A proposed mining protocol that produces Nakamoto's intended single longest chain outcome while constituting a true game-theoretic equilibrium. The authors show that neither selfish mining nor any other deviation is profitable for miners controlling less than half the network's power.
