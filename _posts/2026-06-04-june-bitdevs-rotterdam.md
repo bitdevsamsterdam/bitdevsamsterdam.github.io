@@ -22,4 +22,10 @@ These rules exist so that BitDevs participants can speak freely within the event
 
 ### Agenda
 
-TBA
+### First half
+
+Bitcoin CoreDev topics recap
+
+### Second half
+
+Lightning Network spec meeting topics recap
