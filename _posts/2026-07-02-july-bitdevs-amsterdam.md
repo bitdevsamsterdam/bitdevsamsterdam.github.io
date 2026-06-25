@@ -26,10 +26,26 @@ These rules exist so that BitDevs participants can speak freely within the event
 - **PrivateBroadcast IP leak**: A privacy bug in Bitcoin Core 31.0 where a failed BIP324 v2 handshake retries over v1 without Tor, leaking the sender's IP despite `-privatebroadcast`; fixed in 31.1.
   - [https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/](https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/)
 
+- **Full Libevent removal (Bitcoin Core #34411)**: Completes the long-running, multi-contributor effort to fully drop the libevent dependency from Bitcoin Core.
+  - [https://github.com/bitcoin/bitcoin/pull/34411](https://github.com/bitcoin/bitcoin/pull/34411)
+
+#### P2p
+
+- **BIP54 coinbase-locktime compliance over 40%**: Over 40% of coinbase transactions now set their `nLockTime` per BIP-54 (block height minus 1), reflecting actual compliance rather than mere signaling.
+  - [https://mainnet.observer/charts/transactions-coinbase-locktime-bip54/](https://mainnet.observer/charts/transactions-coinbase-locktime-bip54/)
+
+#### Mining
+
+- **BitAxe Stratum V2 support**: Adds Stratum V2 binary protocol support with Noise encryption to the open-source BitAxe miner alongside V1, tested at full 1.3 TH/s against an SRI pool.
+  - [https://github.com/bitaxeorg/ESP-Miner/pull/1553](https://github.com/bitaxeorg/ESP-Miner/pull/1553)
+
 #### Post-quantum
 
 - **Public key recovery for EC leaves in P2MR (BIP-360)**: Proposes recovering the public key from the signature instead of revealing it in the witness, shrinking the EC spending path of this post-quantum address scheme from 135 to ~100 bytes.
   - [https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603](https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603)
+
+- **Framework for post-quantum outputs: {Never, Later, Now} × {Merkle, Taproot}**: Pieter Wuille's bitcoin-dev framework for reasoning about when to deploy quantum-resistant outputs and whether to structure them as Merkle-based (P2MR) or Taproot-based commitments.
+  - [https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA/m/Gona1fr3AgAJ](https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA/m/Gona1fr3AgAJ)
 
 #### Layer 2 and scaling
 
