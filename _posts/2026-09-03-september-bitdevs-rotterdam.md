@@ -2,6 +2,10 @@
 layout: post
 type: socratic
 title: "BitDevs Rotterdam, September 3, 2026"
+date: 2026-07-03 10:02:00 +0200
+last_modified_at: 2026-07-03 10:02:00 +0200
+event_date: 2026-09-03
+permalink: /2026-09-03-september-bitdevs-rotterdam
 published: true
 ---
 

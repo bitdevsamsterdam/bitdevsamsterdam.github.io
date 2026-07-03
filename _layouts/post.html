@@ -6,7 +6,8 @@ layout: default
   <div class="Post">
     <h1 class="Post-title">{{ page.title }}</h1>
     <div class="Post-info">
-      <span>{{ page.date | date_to_string }}</span>
+      {% assign display_date = page.event_date | default: page.date %}
+      <span>{{ display_date | date_to_string }}</span>
       {% if page.meetup %}
         <span>
           <a href="{{ page.meetup }}" target="_blank" rel="noopener nofollow">

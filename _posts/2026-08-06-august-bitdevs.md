@@ -2,6 +2,10 @@
 layout: post
 type: socratic
 title: "BitDevs, August 2026 (NOT HAPPENING)"
+date: 2026-07-03 10:01:00 +0200
+last_modified_at: 2026-07-03 10:01:00 +0200
+event_date: 2026-08-06
+permalink: /2026-08-06-august-bitdevs
 published: true
 ---
 

@@ -12,9 +12,10 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title: "BitDevs Amsterdam"
 description: "BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols."
+feed:
+  posts_limit: 50
 
 # Leave out some files
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.sass-cache']
 
-future: true
-
+future: false
