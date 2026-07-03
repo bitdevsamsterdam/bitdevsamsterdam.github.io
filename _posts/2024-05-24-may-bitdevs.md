@@ -10,7 +10,7 @@ published: true
 
 It's time for a special edition of BitDevs, _The Adopting Bitcoin Arnhem Conference Edition!_ We hope to have a lot of friends from out of town joining, so we'll be meeting at a different place and different time than usual! Please read the details below carefully!
 
-### Friday, May 24th 2023 @ 4PM
+### Friday, May 24th 2024 @ 4PM
 
 We will be meeting in Arnhem to kick off the [Adopting Bitcoin Arnhem](https://adoptingbitcoinarnhem.com/) conference:
 

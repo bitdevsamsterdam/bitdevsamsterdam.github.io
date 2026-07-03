@@ -10,7 +10,7 @@ published: true
 
 It's time for another BitDevs! A big thanks to [Blockrise](https://www.blockrise.com/nl) for sponsoring us with the meeting space. Drinks will be provided, so please ensure you have some dinner beforehand or bring it along to the seminar.
 
-### Thursday, September 4rd, 2025 @ 7PM
+### Thursday, September 4th, 2025 @ 7PM
 
 Doors open at 6:30PM and we will try to start promptly at 7PM. As a reminder, the ground rules of BitDevs are as follows:
 
