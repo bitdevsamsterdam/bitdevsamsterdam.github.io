@@ -1,5 +1,5 @@
 # Build settings
-url: //bitdevsamsterdam.org
+url: https://bitdevsamsterdam.org
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title
