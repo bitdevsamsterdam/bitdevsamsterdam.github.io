@@ -1,0 +1,70 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+{% comment %}
+Custom feed template overriding jekyll-feed's default (the plugin skips
+generation when this file exists). Based on jekyll-feed v0.17.0 feed.xml:
+that is the version the GitHub Pages builder pins in production (see
+https://pages.github.com/versions.json) — the Gemfile only affects local
+builds and may list a different version.
+
+Posts on this site are dated with the *event* date, which is usually in the
+future when the post is announced. RSS readers hide entries whose
+<published>/<updated> lie in the future, so we clamp both to the build time
+(site.time). Once the event date has passed, the entry reverts to the event
+date, matching the old feed.
+{% endcomment %}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url | xml_escape }}</id>
+  <title type="html">{{ site.title | smartify | xml_escape }}</title>
+  {% if site.description %}
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  {% endif %}
+  {% assign posts = site.posts %}
+  {% unless site.show_drafts %}
+    {% assign posts = posts | where_exp: "post", "post.draft != true" %}
+  {% endunless %}
+  {% assign posts = posts | sort: "date" | reverse %}
+  {% assign posts_limit = site.feed.posts_limit | default: 10 %}
+  {% comment %}
+  #62 changed the entry id format, which would resurface historical posts in
+  readers as new items. Drop them from the feed instead.
+  {% endcomment %}
+  {% assign feed_start = '2026-08-01' | date: '%s' | plus: 0 %}
+  {% for post in posts limit: posts_limit %}
+    {% assign post_epoch = post.date | date: '%s' | plus: 0 %}
+    {% if post_epoch < feed_start %}{% break %}{% endif %}
+    {% if post.date > site.time %}
+      {% assign entry_date = site.time %}
+    {% else %}
+      {% assign entry_date = post.date %}
+    {% endif %}
+    <entry>
+      {% assign post_title = post.title | smartify | strip_html | normalize_whitespace | xml_escape %}
+      <title type="html">{{ post_title }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
+      <published>{{ entry_date | date_to_xmlschema }}</published>
+      <updated>{{ post.last_modified_at | default: entry_date | date_to_xmlschema }}</updated>
+      {% comment %}
+      A tag: URI (RFC 4151) is unique (post.url embeds the event date and
+      slug) and stays valid if the site ever moves domains.
+      {% endcomment %}
+      <id>tag:bitdevsamsterdam.org,{{ post.date | date: "%Y" }}:{{ post.url | xml_escape }}</id>
+      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[{{ post.content | strip }}]]></content>
+      {% assign post_author = post.author | default: site.author %}
+      <author>
+        <name>{{ post_author.name | default: post_author | default: "" | xml_escape }}</name>
+      </author>
+      {% assign post_summary = post.description | default: post.excerpt %}
+      {% if post_summary and post_summary != empty %}
+      <summary type="html"><![CDATA[{{ post_summary | strip_html | normalize_whitespace }}]]></summary>
+      {% endif %}
+    </entry>
+  {% endfor %}
+</feed>
