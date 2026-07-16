@@ -29,6 +29,11 @@ meetup: https://www.meetup.com/bitdevs-amsterdam/events/[event id here]/
 
 After that, it's just simple markdown. The site will auto-generate the rest.
 
+CI checks that the event date is consistent between the filename, the title,
+and any "Thursday, September 3rd, 2026"-style mention in the body (including
+the weekday and ordinal), since those drift easily when a previous post is
+used as a template.
+
 ## Changing Site Data
 
 All site configurations are either contained in `_config.yml` or
