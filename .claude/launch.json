@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll-serve",
+      "runtimeExecutable": "bundle",
+      "runtimeArgs": ["exec", "jekyll", "serve", "--future", "--drafts", "--unpublished", "--incremental"],
+      "port": 4000
+    }
+  ]
+}

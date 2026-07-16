@@ -1,0 +1,16 @@
+name: Lint posts
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  lint-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PyYAML
+        run: python3 -m pip install --quiet pyyaml
+      - name: Lint posts
+        run: python3 .github/scripts/lint_posts.py
