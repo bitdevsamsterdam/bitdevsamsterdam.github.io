@@ -2,6 +2,7 @@
 layout: post
 type: socratic
 title: "BitDevs Arnhem, September 18, 2026"
+meetup: https://www.meetup.com/bitdevs-amsterdam/events/316097205/
 published: true
 ---
 
