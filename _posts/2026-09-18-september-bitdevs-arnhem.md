@@ -49,8 +49,10 @@ These rules exist so that BitDevs participants can speak freely within the event
   - [https://lightning.engineering/posts/2026-07-21-wavelength-launch/](https://lightning.engineering/posts/2026-07-21-wavelength-launch/)
   - [https://bitcoinmagazine.com/technical/lightning-labs-launches-wavelength-bitcoin-on-easy-mode-for-developers-and-autonomous-agents](https://bitcoinmagazine.com/technical/lightning-labs-launches-wavelength-bitcoin-on-easy-mode-for-developers-and-autonomous-agents)
 
-- **CLN ping-flood DoS disclosure**: Attackers could crash Core Lightning nodes by flooding them with max-size `ping` messages while refusing to read replies, growing the outgoing queue unbounded until an OOM kill; now fixed by routing all messages through proper flow-control gates.
+- **CLN faces a major security vulnerability**: A serious Core Lightning vulnerability has been flagged, with users urged to update; the root issue has not yet been disclosed.
   - [https://x.com/murchandamus/status/2092668704790315288](https://x.com/murchandamus/status/2092668704790315288)
+
+- **CLN ping-flood DoS disclosure**: A separate, already-disclosed DoS where attackers crash Core Lightning nodes by flooding them with max-size `ping` messages while refusing to read replies, growing the outgoing queue unbounded until an OOM kill; now fixed by routing all messages through proper flow-control gates.
   - [https://delvingbitcoin.org/t/disclosure-crashing-cln-with-a-flood-of-pings/2846](https://delvingbitcoin.org/t/disclosure-crashing-cln-with-a-flood-of-pings/2846)
 
 - **Boltz taken over after security incidents**: Boltz suspended its Bitcoin/Lightning swap service on August 3 after escalating AI-assisted attacks, and its founders have now exited as an unnamed group of Bitcoin veterans takes over to fund and fix it.
