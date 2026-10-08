@@ -7,7 +7,7 @@ published: true
 
 ## BitDevs Amsterdam meeting 032!
 
-This time BitDevs takes place at the Bitcoin Amsterdam conference at the SugarFactory. **No conference ticket is required** to attend.
+This time BitDevs takes place at the **Bitcoin Amsterdam** conference at the **SugarFactory**. Please note that **no conference ticket is required** to attend.
 
 ### Thursday, November 5th, 2026 @ 5:30PM
 
