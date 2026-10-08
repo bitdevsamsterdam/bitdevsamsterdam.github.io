@@ -7,11 +7,11 @@ published: true
 
 ## BitDevs Amsterdam meeting 032!
 
-This time BitDevs takes place at the Bitcoin Amsterdam conference. **No conference ticket is required** to attend.
+This time BitDevs takes place at the Bitcoin Amsterdam conference at the SugarFactory. **No conference ticket is required** to attend.
 
 ### Thursday, November 5th, 2026 @ 5:30PM
 
-The meetup runs from 5:30PM to 7:30PM in the room off the main community walkway, where stage 3 will be.
+The meetup runs from 5:30PM to 7:30PM at the SugarFactory, in the room off the main community walkway, where stage 3 will be.
 
 As a reminder, the ground rules of BitDevs are as follows:
 
