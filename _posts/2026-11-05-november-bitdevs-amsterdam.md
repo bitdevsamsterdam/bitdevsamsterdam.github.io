@@ -39,6 +39,9 @@ These rules exist so that BitDevs participants can speak freely within the event
 - **CLN self-referential channel announcement DoS**: A `channel_announcement` naming the same node on both sides crashes Core Lightning, and because it is persisted to disk the node keeps crashing on every restart; it affects v25.02 through v26.04 and is fixed in v26.04.1.
   - [https://delvingbitcoin.org/t/cln-self-referential-channel-announcement-dos-disclosure/2974](https://delvingbitcoin.org/t/cln-self-referential-channel-announcement-dos-disclosure/2974)
 
+- **Second's Ark server exploited**: A bug in the boarding flow let an attacker register boards without the server's cosignature, exit them to his own wallet, and also spend the same VTXOs over Lightning, taking 0.75 BTC of Second's own liquidity. User funds were never at risk because VTXOs sit on pre-signed exit paths the server can't spend.
+  - [https://stacker.news/items/1591231](https://stacker.news/items/1591231)
+
 #### Bitcoin Core
 
 - **Bitcoin Core security policy update**: As LLMs make bugs easier to rediscover, Bitcoin Core will shorten the embargo for vulnerabilities considered easy to find, backporting and releasing fixes as soon as possible with a security advisory.
